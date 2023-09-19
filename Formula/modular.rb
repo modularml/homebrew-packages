@@ -10,6 +10,7 @@ class Modular < Formula
 
   depends_on arch: :arm64
   depends_on :macos
+  depends_on "python@3.11"
 
   def install
     prefix.install Dir["*"]
