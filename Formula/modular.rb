@@ -17,6 +17,7 @@ class Modular < Formula
 
   def install
     prefix.install Dir["*"]
+    (etc/"modular").install_symlink Dir[prefix/"etc/modular/*"]
   end
 
   test do
