@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install modularml/modular/modular`
+`brew install modularml/packages/modular`
 
-Or `brew tap modularml/modular` and then `brew install modular`.
+Or `brew tap modularml/packages` and then `brew install modular`.
 
 ## Documentation
 
