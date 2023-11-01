@@ -8,7 +8,7 @@ class Modular < Formula
 
   if "#{ENV["HOMEBREW_MODULAR_URL"]}".empty?
     url "https://dl.modular.com/public/installer/raw/names/modular-mac-arm64/versions/latest/modular-v0.2.2-macos-arm64.tar.gz"
-    sha256 "0da8501e277c5779a73d4a2a9f3ac7c65a7320d6ba602032610184a1566dcaaf"
+    sha256 "87d3fc5eaabce62e5f3cb07994cf767422fde261133a7b2c8d4c34b33ff42969"
     version "v0.2.2"
   else
     url "#{ENV["HOMEBREW_MODULAR_URL"]}"
