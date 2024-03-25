@@ -7,9 +7,9 @@ class Modular < Formula
   depends_on "python@3.11"
 
   if "#{ENV["HOMEBREW_MODULAR_URL"]}".empty?
-    url "https://dl.modular.com/public/installer/raw/names/modular-mac-arm64/versions/latest/modular-v0.5.2-macos-arm64.tar.gz"
-    sha256 "7fa637bb04d4d871b4e64adbe4c2eb51278e0305346245482a3317fb33db49cc"
-    version "0.5.2"
+    url "https://dl.modular.com/public/installer/raw/names/modular-mac-arm64/versions/latest/modular-v0.6.0-macos-arm64.tar.gz"
+    sha256 "234d9d47240bf1406a8e0edf8472cd1c249e7ef87dbdcefa715af3f158333069"
+    version "0.6.0"
   else
     url "#{ENV["HOMEBREW_MODULAR_URL"]}"
     sha256 "#{ENV["HOMEBREW_MODULAR_SHA256"]}"
